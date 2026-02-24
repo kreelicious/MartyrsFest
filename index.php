@@ -198,6 +198,10 @@
         linear-gradient(140deg, #3b184f 0%, #5a2374 45%, #a7338a 100%);
     }
 
+    #saturday{
+      background-color: #89D3F4;
+    }
+
     /* Poster reveal animation */
     .poster{
       border-radius:var(--radius);
