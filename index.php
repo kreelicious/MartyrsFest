@@ -102,6 +102,17 @@
       opacity:.95;
       white-space:normal;
     }
+    .nav-date-item{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+    }
+    .nav-icon{
+      width:14px;
+      height:14px;
+      fill:currentColor;
+      flex:0 0 auto;
+    }
 
     /* Layout sections */
     section{
@@ -344,9 +355,14 @@
     @media (max-width: 900px){
       .nav-inner{ grid-template-columns: 1fr; gap:8px; text-align:center; }
       .brand{ justify-content:center; }
-      .nav-date{ text-align:center; }
+      .nav-date{ display:none; }
       .hero-grid, .day-grid, .tickets-grid{ grid-template-columns:1fr; }
       .nav-links{ gap:10px; }
+      .nav-links a{
+        font-size:11px;
+        letter-spacing:.65px;
+        padding:8px 7px;
+      }
     }
   </style>
 </head>
@@ -368,8 +384,14 @@
       </nav>
 
       <div class="nav-date" aria-label="Festival dates and location">
-        <span>📅 22–24 May</span>
-        <span>📍 Penydarren Park.</span>
+        <span class="nav-date-item">
+          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 4h-1V2h-2v2H8V2H6v2H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V7a1 1 0 0 1 1-1h1v2h2V6h8v2h2V6h1a1 1 0 0 1 1 1Z"/></svg>
+          <span>22–24 May</span>
+        </span>
+        <span class="nav-date-item">
+          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg>
+          <span>Penydarren Park.</span>
+        </span>
       </div>
     </div>
   </header>
