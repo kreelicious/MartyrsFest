@@ -188,6 +188,13 @@
       padding:8px 12px;
     }
 
+    #sunday{
+      background:
+        radial-gradient(700px 360px at 10% 20%, rgba(255, 138, 245, .30), transparent 60%),
+        radial-gradient(850px 420px at 90% 80%, rgba(167, 109, 255, .26), transparent 62%),
+        linear-gradient(140deg, #3b184f 0%, #5a2374 45%, #a7338a 100%);
+    }
+
     /* Poster reveal animation */
     .poster{
       border-radius:var(--radius);
