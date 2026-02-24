@@ -108,11 +108,13 @@
 
     /* Hero */
     .hero{
+      min-height:80vh;
+      display:flex;
+      align-items:center;
       padding-top:72px;
       background:
-        radial-gradient(800px 420px at 15% 10%, rgba(255,255,255,.12), transparent 55%),
-        radial-gradient(900px 520px at 85% 20%, rgba(255,255,255,.10), transparent 60%),
-        linear-gradient(#070707, #050505);
+        linear-gradient(rgba(7,7,7,.68), rgba(5,5,5,.82)),
+        url('assets/martyrfest-hero.png') center/cover no-repeat;
     }
     .hero-grid{
       display:grid;
@@ -257,6 +259,10 @@
     }
     .btn:hover{ transform: translateY(-1px); background:rgba(255,255,255,.12); }
 
+    .day-actions{
+      margin-top:16px;
+    }
+
     /* FAQ */
     details{
       border:1px solid rgba(255,255,255,.12);
@@ -380,6 +386,9 @@
             <li>Re-entry: No (Fri/Sat) :contentReference[oaicite:7]{index=7}</li>
             <li>Under-18s: 16+ (with parent/guardian) :contentReference[oaicite:8]{index=8}</li>
           </ul>
+          <div class="day-actions">
+            <a class="btn" href="#tickets">BUY TICKETS</a>
+          </div>
         </div>
 
         <div class="poster js-reveal">
@@ -405,6 +414,9 @@
             <li>Re-entry: No :contentReference[oaicite:11]{index=11}</li>
             <li>Age: 18+ for the Saturday event :contentReference[oaicite:12]{index=12}</li>
           </ul>
+          <div class="day-actions">
+            <a class="btn" href="#tickets">BUY TICKETS</a>
+          </div>
         </div>
 
         <div class="poster js-reveal">
@@ -434,6 +446,9 @@
           <div class="card" style="margin-top:14px;">
             <h3>Sunday ticket guide</h3>
             <p>Adults: £17.50 • Children: £5 • Families: £40 :contentReference[oaicite:17]{index=17}</p>
+          </div>
+          <div class="day-actions">
+            <a class="btn" href="#tickets">BUY TICKETS</a>
           </div>
         </div>
 
