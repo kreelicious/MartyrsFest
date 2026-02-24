@@ -174,7 +174,7 @@
       border:1px solid var(--border);
       background:rgba(255,255,255,.05);
       font-weight:700;
-      font-size:12px;
+      font-size:20px;
       letter-spacing:1px;
       color:rgba(255,255,255,.82);
       margin-bottom:10px;
@@ -379,21 +379,6 @@
             with a strict 10pm curfew across the weekend.
           </p>
           <a class="btn" href="#tickets">Get tickets</a>
-        </div>
-
-        <div class="hero-cards">
-          <div class="card">
-            <h3>Location</h3>
-            <p>Penydarren Park Stadium (enclosed site). :contentReference[oaicite:2]{index=2}</p>
-          </div>
-          <div class="card">
-            <h3>Curfew</h3>
-            <p>Strict 22:00 — all amplified sound stops. :contentReference[oaicite:3]{index=3}</p>
-          </div>
-          <div class="card">
-            <h3>Capacity</h3>
-            <p>Up to 2,000 (Fri/Sat), up to 1,500 (Sun). :contentReference[oaicite:4]{index=4}</p>
-          </div>
         </div>
       </div>
     </div>
