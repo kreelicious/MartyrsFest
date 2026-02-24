@@ -407,14 +407,19 @@
           <span class="pill">FRIDAY</span>
           <h2>THE LUKE COMBS EXPERIENCE</h2>
           <p>
-            Country night under the lights — live entertainment, licensed bars, and street food inside Penydarren Park.
-            Curfew is 10pm sharp.
+            MartyrsFest kicks off with a huge country night as The Luke Combs Experience brings the sound of modern
+            Nashville to Merthyr. Expect all the anthems, big choruses and unmistakable Southern energy — from
+            “Beautiful Crazy” to “Beer Never Broke My Heart.”
+          </p>
+          <p>
+            This full live-band show is built for singalongs, cold drinks and a packed-out crowd under the lights,
+            with support from Diggs Galliers plus licensed bars and street food on site.
           </p>
           <ul class="meta">
-            <li>Time: 6pm–10pm :contentReference[oaicite:5]{index=5}</li>
-            <li>Curfew: 22:00 :contentReference[oaicite:6]{index=6}</li>
-            <li>Re-entry: No (Fri/Sat) :contentReference[oaicite:7]{index=7}</li>
-            <li>Under-18s: 16+ (with parent/guardian) :contentReference[oaicite:8]{index=8}</li>
+            <li>Doors: 6PM</li>
+            <li>Tickets: £20</li>
+            <li>Ages: 16+ (under 18s must be accompanied by a responsible adult)</li>
+            <li>Curfew: 10PM sharp</li>
           </ul>
           <div class="day-actions">
             <a class="btn" href="#tickets">BUY TICKETS</a>
@@ -422,7 +427,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/lukecombsexperience-poster.jpeg" alt="Friday poster — Luke Coms Experience">
+          <img src="assets/lukecombsexperience-poster.jpeg" alt="Friday poster — The Luke Combs Experience">
         </div>
       </div>
     </div>
@@ -434,15 +439,20 @@
       <div class="day-grid">
         <div>
           <span class="pill">SATURDAY</span>
-          <h2>DAYFEVER</h2>
+          <h2>DAYFEVER (DAYTIME DISCO)</h2>
           <p>
-            Big Saturday session with licensed bars, street food, and a full entertainment programme.
+            Saturday belongs to DAYFEVER — the ultimate daytime disco experience. Expect wall-to-wall floorfillers
+            from the 80s, 90s and 00s, hands-in-the-air moments and the kind of crowd that knows every word.
+          </p>
+          <p>
+            No egos, no late finish — just bangers. Festival production, DJ sets, licensed bars and street food all
+            day at Penydarren Park, wrapped up before 10PM.
           </p>
           <ul class="meta">
-            <li>Time: 3pm–10pm :contentReference[oaicite:9]{index=9}</li>
-            <li>Curfew: 22:00 :contentReference[oaicite:10]{index=10}</li>
-            <li>Re-entry: No :contentReference[oaicite:11]{index=11}</li>
-            <li>Age: 18+ for the Saturday event :contentReference[oaicite:12]{index=12}</li>
+            <li>Doors: 3PM</li>
+            <li>Ages: 18+ only</li>
+            <li>Curfew: 10PM</li>
+            <li>Licensed bars and street food available throughout the day</li>
           </ul>
           <div class="day-actions">
             <a class="btn" href="#tickets">BUY TICKETS</a>
@@ -464,18 +474,23 @@
           <span class="pill">SUNDAY</span>
           <h2>VORTEX DAY</h2>
           <p>
-            A family-focused day featuring charity football, live bands, street food, and family entertainment.
+            Bank Holiday Sunday is all about community. VORTEX DAY combines a charity football match, live music,
+            family entertainment and festival vibes for a proper day out.
           </p>
           <ul class="meta">
-            <li>Charity football + live bands :contentReference[oaicite:13]{index=13}</li>
-            <li>Street food + family entertainment :contentReference[oaicite:14]{index=14}</li>
-            <li>Sunday capacity: 1,500 :contentReference[oaicite:15]{index=15}</li>
-            <li>Family ticketing + under-18 wristbands :contentReference[oaicite:16]{index=16}</li>
+            <li>Bank Holiday Sunday 24 May 2026 • From 3PM</li>
+            <li>Vortex Charity Match: Vortex XI vs Celebrity Select • Kick-off 3PM</li>
+            <li>Live music on The Vortex Stage from 5PM</li>
+            <li>Street food traders, licensed bar, kids activities, family entertainment and market stalls</li>
           </ul>
+
+          <p>
+            Featuring live performances from Acacia, Slack, Riverside Buskers and The Ffugs.
+          </p>
 
           <div class="card" style="margin-top:14px;">
             <h3>Sunday ticket guide</h3>
-            <p>Adults: £17.50 • Children: £5 • Families: £40 :contentReference[oaicite:17]{index=17}</p>
+            <p>Adults: £15 • Children (Under 16): £5 • Family Ticket (2 adults + 2 children): £35 • Curfew: 10PM</p>
           </div>
           <div class="day-actions">
             <a class="btn" href="#tickets">BUY TICKETS</a>
