@@ -92,11 +92,15 @@
     }
     .nav-date{
       text-align:right;
+      display:flex;
+      flex-direction:column;
+      align-items:flex-end;
+      gap:3px;
       font-weight:700;
       font-size:13px;
       letter-spacing:.6px;
       opacity:.95;
-      white-space:nowrap;
+      white-space:normal;
     }
 
     /* Layout sections */
@@ -363,7 +367,10 @@
         <a href="#faqs">FAQ’s</a>
       </nav>
 
-      <div class="nav-date">22–24 May 2026</div>
+      <div class="nav-date" aria-label="Festival dates and location">
+        <span>📅 22–24 May</span>
+        <span>📍 Penydarren Park.</span>
+      </div>
     </div>
   </header>
 
