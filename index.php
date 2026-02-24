@@ -39,6 +39,9 @@
       letter-spacing:.2px;
       margin:0 0 12px;
     }
+    h2 {
+        font-size: 42px;
+    }
     p{ margin:0 0 12px; color:var(--muted); }
     a{ color:inherit; text-decoration:none; }
 
@@ -388,7 +391,7 @@
       <div class="day-grid">
         <div>
           <span class="pill">SATURDAY</span>
-          <h2>Vortex Day</h2>
+          <h2>DAYFEVER</h2>
           <p>
             Big Saturday session with licensed bars, street food, and a full entertainment programme.
           </p>
@@ -413,7 +416,7 @@
       <div class="day-grid">
         <div>
           <span class="pill">SUNDAY</span>
-          <h2>Family Entertainment + Community Day</h2>
+          <h2>VORTEX DAY</h2>
           <p>
             A family-focused day featuring charity football, live bands, street food, and family entertainment.
           </p>
