@@ -204,6 +204,13 @@
       background-color: #89D3F4;
     }
 
+    #friday{
+      background:
+        radial-gradient(760px 360px at 8% 16%, rgba(255, 174, 93, .22), transparent 62%),
+        radial-gradient(900px 440px at 88% 86%, rgba(128, 77, 33, .28), transparent 64%),
+        linear-gradient(140deg, #4b2c18 0%, #7a4522 42%, #b77232 100%);
+    }
+
     /* Poster reveal animation */
     .poster{
       border-radius:var(--radius);
