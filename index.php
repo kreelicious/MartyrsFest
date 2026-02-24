@@ -180,17 +180,25 @@
       margin-bottom:10px;
     }
     .meta{
-      display:flex; flex-wrap:wrap; gap:10px;
-      margin:14px 0 0;
-      padding:0; list-style:none;
+      margin:16px 0 0;
+      padding:0;
+      list-style:none;
       color:var(--muted2);
-      font-size:14px;
+      font-size:18px;
+      display:grid;
+      gap:10px;
     }
     .meta li{
-      border:1px solid rgba(255,255,255,.10);
-      background:rgba(255,255,255,.04);
-      border-radius:999px;
-      padding:8px 12px;
+      display:flex;
+      align-items:flex-start;
+      gap:10px;
+      padding:4px 0;
+    }
+    .meta li::before{
+      content:"✓";
+      font-weight:700;
+      color:#7df3a8;
+      line-height:1.3;
     }
 
     #sunday{
@@ -201,7 +209,22 @@
     }
 
     #saturday{
-      background-color: #89D3F4;
+      background-color:#89D3F4;
+      color:#0e2233;
+    }
+    #saturday p{
+      color:rgba(14,34,51,.88);
+    }
+    #saturday .pill{
+      border-color:rgba(14,34,51,.28);
+      background:rgba(14,34,51,.08);
+      color:#0e2233;
+    }
+    #saturday .meta{
+      color:rgba(14,34,51,.92);
+    }
+    #saturday .meta li::before{
+      color:#0d7a4c;
     }
 
     /* Poster reveal animation */
