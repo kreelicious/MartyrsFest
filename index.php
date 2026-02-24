@@ -365,7 +365,7 @@
       <div class="day-grid">
         <div>
           <span class="pill">FRIDAY</span>
-          <h2>Kicking Country Night</h2>
+          <h2>THE LUKE COMBS EXPERIENCE</h2>
           <p>
             Country night under the lights — live entertainment, licensed bars, and street food inside Penydarren Park.
             Curfew is 10pm sharp.
@@ -379,7 +379,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/poster-friday.jpg" alt="Friday poster — Kicking Country Night">
+          <img src="assets/lukecombsexperience-poster.jpeg" alt="Friday poster — Luke Coms Experience">
         </div>
       </div>
     </div>
@@ -404,7 +404,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/poster-saturday.jpg" alt="Saturday poster — Vortex Day">
+          <img src="assets/dayfever.jpeg" alt="Saturday poster — DAYFEVER">
         </div>
       </div>
     </div>
@@ -434,7 +434,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/poster-sunday.jpg" alt="Sunday poster — Family & Community Day">
+          <img src="assets/vortexday-poster.jpeg" alt="Sunday poster — Family & Community Day">
         </div>
       </div>
     </div>
