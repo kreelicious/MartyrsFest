@@ -42,7 +42,7 @@
     h2 {
         font-size: 42px;
     }
-    p{ margin:0 0 12px; color:var(--muted); }
+    p{ font-size:18px; margin:0 0 12px; color:var(--muted); }
     a{ color:inherit; text-decoration:none; }
 
     /* Sticky nav */
@@ -322,7 +322,7 @@
   <header class="nav">
     <div class="nav-inner">
       <a class="brand" href="#top" aria-label="MartyrsFest home">
-        <img src="assets/logo-martyrsfest.svg" alt="MartyrsFest logo">
+        <img src="assets/logo-martyrsfest.png" alt="MartyrsFest logo">
       </a>
 
       <nav class="nav-links" aria-label="Primary">
