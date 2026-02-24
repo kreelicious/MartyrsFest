@@ -113,8 +113,8 @@
       align-items:center;
       padding-top:72px;
       background:
-        linear-gradient(rgba(7,7,7,.68), rgba(5,5,5,.82)),
-        url('assets/martyrfest-hero.png') center/cover no-repeat;
+        linear-gradient(rgba(7, 7, 7, 0.39), rgba(5, 5, 5, 0.28)),
+        url('assets/martyrfest-hero.jpeg') center/cover no-repeat;
     }
     .hero-grid{
       display:grid;
@@ -137,7 +137,7 @@
       margin-bottom:14px;
     }
     .hero h1{
-      font-size: clamp(34px, 4vw, 56px);
+      font-size: clamp(34px, 4vw, 65px);
       line-height:1.04;
       margin-bottom:14px;
     }
@@ -373,12 +373,11 @@
       <div class="hero-grid">
         <div>
           <div class="kicker">BANK HOLIDAY • OUTDOOR FESTIVAL • PENYDARREN PARK</div>
-          <h1>MartyrsFest is landing in Merthyr.</h1>
+          <h1>THREE DAYS OF LIVE MUSIC AND COMMUNITY VIBES</h1>
           <p class="lead">
-            Three days of live music, community vibes, street food and big energy — inside an enclosed stadium site,
-            with a strict 10pm curfew across the weekend.
+            AT THE HOME OF MERTHYR TOWN FC.
           </p>
-          <a class="btn" href="#tickets">Get tickets</a>
+          <a class="btn" href="#tickets">GET TICKETS</a>
         </div>
       </div>
     </div>
