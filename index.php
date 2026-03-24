@@ -129,7 +129,7 @@
       padding-top:72px;
       background:
         linear-gradient(rgba(7, 7, 7, 0.39), rgba(5, 5, 5, 0.28)),
-        url('assets/martyrfest-hero.jpeg') center/cover no-repeat;
+        url('assets/pp-banner.jpeg') center/cover no-repeat;
     }
     .hero-grid{
       display:grid;
