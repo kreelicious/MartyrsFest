@@ -455,10 +455,10 @@
           <h2>DAYFEVER (DAYTIME DISCO)</h2>
           <p>
             Saturday belongs to DAYFEVER — the ultimate daytime disco experience. Expect wall-to-wall floorfillers
-            from the 80s, 90s and 00s, hands-in-the-air moments and the kind of crowd that knows every word.
+            throught all the decades, hands-in-the-air moments and the kind of crowd that knows every word.
           </p>
           <p>
-            No egos, no late finish — just bangers. Festival production, DJ sets, licensed bars and street food all
+            Merthyr's very own Jonny Owen and Sean Jay will droppiong all the bangers. Festival production, DJ sets, licensed bars and street food all
             day at Penydarren Park, wrapped up before 10PM.
           </p>
           <ul class="meta">
