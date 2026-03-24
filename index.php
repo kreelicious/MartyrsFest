@@ -274,21 +274,9 @@
     /* Tickets */
     .tickets-grid{
       display:grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       gap:18px;
       align-items:start;
-    }
-    .widget-slot{
-      border:1px dashed rgba(255,255,255,.25);
-      border-radius:var(--radius);
-      padding:18px;
-      min-height:260px;
-      background:rgba(255,255,255,.03);
-      color:var(--muted2);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
     }
     .btn{
       display:inline-flex;
@@ -408,7 +396,7 @@
           <p class="lead">
             AT THE HOME OF MERTHYR TOWN FC.
           </p>
-          <a class="btn" href="#tickets">GET TICKETS</a>
+          <a class="btn" href="#tickets">BUY TICKETS</a>
         </div>
       </div>
     </div>
@@ -419,7 +407,7 @@
     <div class="wrap">
       <div class="day-grid">
         <div>
-          <span class="pill">FRIDAY</span>
+          <span class="pill">FRIDAY 22 MAY</span>
           <h2>THE LUKE COMBS EXPERIENCE</h2>
           <p>
             MartyrsFest kicks off with a huge country night as The Luke Combs Experience brings the sound of modern
@@ -437,7 +425,7 @@
             <li>Curfew: 10PM sharp</li>
           </ul>
           <div class="day-actions">
-            <a class="btn" href="#tickets">BUY TICKETS</a>
+            <a class="btn" href="https://www.seetickets.com/event/the-luke-combs-experience/penydarren-park/3620699" target="_blank" rel="noopener">BUY TICKETS</a>
           </div>
         </div>
 
@@ -453,7 +441,7 @@
     <div class="wrap">
       <div class="day-grid">
         <div>
-          <span class="pill">SATURDAY</span>
+          <span class="pill">SATURDAY 23 MAY</span>
           <h2>DAYFEVER</h2>
           <p>
             Saturday belongs to DAYFEVER — the ultimate daytime disco experience. Expect wall-to-wall floorfillers
@@ -470,7 +458,7 @@
             <li>Licensed bars and street food available throughout the day</li>
           </ul>
           <div class="day-actions">
-            <a class="btn" href="#tickets">BUY TICKETS</a>
+            <a class="btn" href="https://www.seetickets.com/event/dayfever-x-merthyr-town-fc/penydarren-park/3620706" target="_blank" rel="noopener">BUY TICKETS</a>
           </div>
         </div>
 
@@ -486,7 +474,7 @@
     <div class="wrap">
       <div class="day-grid">
         <div>
-          <span class="pill">SUNDAY</span>
+          <span class="pill">SUNDAY 24 MAY</span>
           <h2>VORTEX FOOTBALL FUN DAY</h2>
           <p>
             Bank Holiday Sunday is all about community. VORTEX DAY combines a charity football match, live music,
@@ -508,7 +496,7 @@
             <p>Adults: £10 • Children (Under 16): £5 • Family Ticket (2 adults + 2 children): £25 • Curfew: 10PM</p>
           </div>
           <div class="day-actions">
-            <a class="btn" href="#tickets">BUY TICKETS</a>
+            <span class="btn" style="opacity:.5; cursor:default;">COMING SOON</span>
           </div>
         </div>
 
@@ -523,31 +511,25 @@
   <section id="tickets">
     <div class="wrap">
       <h2>Tickets</h2>
-      <p>Tickets are online-only. Wristbands issued on entry. :contentReference[oaicite:18]{index=18}</p>
+      <p>Tickets are online-only via See Tickets. Wristbands issued on entry.</p>
 
       <div class="tickets-grid" style="margin-top:14px;">
         <div class="card">
-          <h3>Buy via See Tickets</h3>
-          <p>
-            Drop your See Tickets embed code into the widget slot on the right.
-            If you want, I’ll wire it up once you paste the exact widget snippet/URL.
-          </p>
-          <p style="margin-top:10px; color:rgba(255,255,255,.7); font-size:14px;">
-            Tip: keep the widget in an iframe container and set a min-height around 600–900px depending on their embed.
-          </p>
+          <h3>Friday — The Luke Combs Experience</h3>
+          <p>Doors 6PM • £20 • Ages 16+</p>
+          <a class="btn" href="https://www.seetickets.com/event/the-luke-combs-experience/penydarren-park/3620699" target="_blank" rel="noopener" style="margin-top:12px;">BUY FRIDAY TICKETS</a>
         </div>
 
-        <div class="widget-slot" aria-label="Seetickets widget slot">
-          <div>
-            <div style="font-weight:700; letter-spacing:.5px; margin-bottom:6px;">SEE TICKETS WIDGET</div>
-            <div style="font-size:14px; color:rgba(255,255,255,.65);">
-              Paste embed code here (iframe/script).
-            </div>
+        <div class="card">
+          <h3>Saturday — DAYFEVER</h3>
+          <p>Doors 3PM • Ages 18+</p>
+          <a class="btn" href="https://www.seetickets.com/event/dayfever-x-merthyr-town-fc/penydarren-park/3620706" target="_blank" rel="noopener" style="margin-top:12px;">BUY SATURDAY TICKETS</a>
+        </div>
 
-            <!-- Example (replace with real embed):
-            <iframe src="https://www.seetickets.com/..." width="100%" height="720" frameborder="0"></iframe>
-            -->
-          </div>
+        <div class="card">
+          <h3>Sunday — Vortex Football Fun Day</h3>
+          <p>Adults £10 • Children £5 • Family (2+2) £25</p>
+          <span class="btn" style="margin-top:12px; opacity:.5; cursor:default;">COMING SOON</span>
         </div>
       </div>
     </div>
