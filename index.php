@@ -485,7 +485,7 @@
       <div class="day-grid">
         <div>
           <span class="pill">SUNDAY</span>
-          <h2>VORTEX DAY</h2>
+          <h2>VORTEX FFOOTBALL FUN DAY</h2>
           <p>
             Bank Holiday Sunday is all about community. VORTEX DAY combines a charity football match, live music,
             family entertainment and festival vibes for a proper day out.
@@ -511,7 +511,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/vortexday-ad.jpeg" alt="Sunday poster — Family & Community Day">
+          <img src="assets/vortex-ad.jpeg" alt="Sunday poster — Family & Community Day">
         </div>
       </div>
     </div>
