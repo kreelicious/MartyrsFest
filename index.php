@@ -323,6 +323,8 @@
     }
     summary::-webkit-details-marker{ display:none; }
     details p{ margin-top:10px; }
+    details ul{ margin:8px 0 0 20px; padding:0; }
+    details li{ margin-bottom:4px; }
 
     .faq{
       display:grid;
@@ -558,35 +560,106 @@
 
       <div class="faq" style="margin-top:14px;">
         <details>
-          <summary>What time does the event finish each night?</summary>
-          <p>There’s a strict 22:00 curfew — all music and amplified sound stops at 10pm. :contentReference[oaicite:19]{index=19}</p>
+          <summary>Can I leave and re-enter the event?</summary>
+          <p><strong>Friday &amp; Saturday:</strong> No re-entry allowed.<br>
+          <strong>Sunday:</strong> Re-entry may be allowed at management discretion.</p>
+          <p>Once you’re in on Friday or Saturday, you’re in for the duration.</p>
         </details>
 
         <details>
-          <summary>Is re-entry allowed?</summary>
-          <p>Friday and Saturday: no re-entry. Sunday: may be allowed at management discretion. :contentReference[oaicite:20]{index=20}</p>
+          <summary>What items can I bring into the event?</summary>
+          <p><strong>You can bring:</strong></p>
+          <ul>
+            <li>Small personal bags</li>
+            <li>Sunscreen, hats, etc.</li>
+          </ul>
+          <p><strong>You cannot bring:</strong></p>
+          <ul>
+            <li>Your own alcohol or drinks</li>
+            <li>Glass containers</li>
+            <li>Weapons or illegal items</li>
+          </ul>
+          <p>All bags may be searched on entry.</p>
         </details>
 
         <details>
-          <summary>What are the age restrictions?</summary>
-          <p>
-            Saturday is 18+ only. Friday is 16+ and under-18s must be accompanied by a parent/legal guardian.
-            Sunday is family-focused with adult/child tickets and under-18 wristbands. :contentReference[oaicite:21]{index=21}
-          </p>
+          <summary>Will there be food and drink available?</summary>
+          <p>Yes—plenty.</p>
+          <ul>
+            <li>Licensed bars operating all weekend</li>
+            <li>8 street food traders on site</li>
+          </ul>
+          <p>No need to bring anything—covered.</p>
         </details>
 
         <details>
-          <summary>How is alcohol managed?</summary>
-          <p>
-            Challenge 25 is enforced. Wristbands help identify under/over 18s, but ID checks still apply. :contentReference[oaicite:22]{index=22}
-          </p>
+          <summary>Is there seating available?</summary>
+          <p>Yes, but limited. The event is mainly standing, however:</p>
+          <ul>
+            <li>Seating is available in designated areas</li>
+            <li>Additional seating is available in bar areas</li>
+          </ul>
+          <p>If you require seating for accessibility reasons, speak to staff on arrival.</p>
         </details>
 
         <details>
-          <summary>What’s the venue setup?</summary>
-          <p>
-            Enclosed stadium site, single entry point and two exit points. Stage max 10m x 5m. :contentReference[oaicite:23]{index=23}
-          </p>
+          <summary>Is the event accessible?</summary>
+          <p>Yes:</p>
+          <ul>
+            <li>Step-free access across the site</li>
+            <li>Accessible toilets available</li>
+            <li>Staff on hand to assist where needed</li>
+          </ul>
+          <p>There is no raised viewing platform, so plan accordingly.</p>
+        </details>
+
+        <details>
+          <summary>Will there be security on site?</summary>
+          <p>Yes.</p>
+          <ul>
+            <li>SIA licensed security</li>
+            <li>Bag checks on entry</li>
+            <li>Stewards and crowd management throughout</li>
+          </ul>
+          <p>This is a properly managed event—not a free-for-all.</p>
+        </details>
+
+        <details>
+          <summary>What time does the event finish?</summary>
+          <p>All days have a strict <strong>10:00pm curfew</strong>.</p>
+          <p>Music and amplified sound will stop at this time without exception.</p>
+        </details>
+
+        <details>
+          <summary>Is there medical support on site?</summary>
+          <p>Yes.</p>
+          <ul>
+            <li>Dedicated First Aid / Medical centre</li>
+            <li>Qualified staff present throughout</li>
+            <li>Emergency services access maintained</li>
+          </ul>
+          <p>If anything happens, you’ll be looked after.</p>
+        </details>
+
+        <details>
+          <summary>What happens if I lose my wristband?</summary>
+          <p>Treat it like a ticket—if it’s gone, it’s gone.</p>
+          <p>Lost wristbands will not be replaced without verification.</p>
+        </details>
+
+        <details>
+          <summary>How do I enter the event?</summary>
+          <ul>
+            <li>Single controlled entry point</li>
+            <li>Tickets scanned on arrival</li>
+            <li>Wristband issued</li>
+          </ul>
+          <p>No ticket = no entry. Simple.</p>
+        </details>
+
+        <details>
+          <summary>Is the event indoors or outdoors?</summary>
+          <p>It’s an outdoor festival inside Penydarren Park stadium, fully enclosed for safety and control.</p>
         </details>
       </div>
     </div>
