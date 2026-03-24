@@ -491,9 +491,9 @@
             family entertainment and festival vibes for a proper day out.
           </p>
           <ul class="meta">
-            <li>Bank Holiday Sunday 24 May 2026 • From 3PM</li>
-            <li>Vortex Charity Match: Vortex XI vs Celebrity Select • Kick-off 3PM</li>
-            <li>Live music on The Vortex Stage from 5PM</li>
+            <li>Bank Holiday Sunday 24 May 2026 • From 10AM</li>
+            <li>Vortex Charity Match: Vortex XI vs Celebrity Select • Kick-off 1PM</li>
+            <li>Live music on The Vortex Stage from 3PM</li>
             <li>Street food traders, licensed bar, kids activities, family entertainment and market stalls</li>
           </ul>
 
@@ -511,7 +511,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/vortexday-poster.jpeg" alt="Sunday poster — Family & Community Day">
+          <img src="assets/vortexday-ad.jpeg" alt="Sunday poster — Family & Community Day">
         </div>
       </div>
     </div>
