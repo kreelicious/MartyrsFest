@@ -569,7 +569,7 @@
           <p>Yes—plenty.</p>
           <ul>
             <li>Licensed bars operating all weekend</li>
-            <li>8 street food traders on site</li>
+            <li>Street food traders on site</li>
           </ul>
           <p>No need to bring anything—covered.</p>
         </details>
