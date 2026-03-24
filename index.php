@@ -485,7 +485,7 @@
       <div class="day-grid">
         <div>
           <span class="pill">SUNDAY</span>
-          <h2>VORTEX FFOOTBALL FUN DAY</h2>
+          <h2>VORTEX FOOTBALL FUN DAY</h2>
           <p>
             Bank Holiday Sunday is all about community. VORTEX DAY combines a charity football match, live music,
             family entertainment and festival vibes for a proper day out.
@@ -503,7 +503,7 @@
 
           <div class="card" style="margin-top:14px;">
             <h3>Sunday ticket guide</h3>
-            <p>Adults: £15 • Children (Under 16): £5 • Family Ticket (2 adults + 2 children): £35 • Curfew: 10PM</p>
+            <p>Adults: £10 • Children (Under 16): £5 • Family Ticket (2 adults + 2 children): £25 • Curfew: 10PM</p>
           </div>
           <div class="day-actions">
             <a class="btn" href="#tickets">BUY TICKETS</a>
