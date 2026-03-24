@@ -452,7 +452,7 @@
       <div class="day-grid">
         <div>
           <span class="pill">SATURDAY</span>
-          <h2>DAYFEVER (DAYTIME DISCO)</h2>
+          <h2>DAYFEVER</h2>
           <p>
             Saturday belongs to DAYFEVER — the ultimate daytime disco experience. Expect wall-to-wall floorfillers
             throught all the decades, hands-in-the-air moments and the kind of crowd that knows every word.
