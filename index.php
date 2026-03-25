@@ -318,6 +318,28 @@
       display:grid;
       gap:12px;
     }
+    .faq-layout{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:28px;
+      align-items:start;
+    }
+    .info-card{
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(255,255,255,.04);
+      border-radius:14px;
+      padding:18px;
+    }
+    .info-card h3{
+      font-weight:700;
+      letter-spacing:.2px;
+      margin-bottom:10px;
+    }
+    .info-card p, .info-card ul{ margin-top:8px; }
+    .info-card ul{ margin-left:20px; padding:0; }
+    .info-card li{ margin-bottom:4px; }
+    .info-card a{ text-decoration:underline; text-underline-offset:3px; }
+    .info-section + .info-section{ margin-top:18px; }
 
     /* Footer */
     footer{
@@ -346,7 +368,7 @@
       .nav-inner{ grid-template-columns: 1fr; gap:8px; text-align:center; }
       .brand{ justify-content:center; }
       .nav-date{ display:none; }
-      .hero-grid, .day-grid, .tickets-grid{ grid-template-columns:1fr; }
+      .hero-grid, .day-grid, .tickets-grid, .faq-layout{ grid-template-columns:1fr; }
       .nav-links{ gap:10px; }
       .nav-links a{
         font-size:11px;
@@ -496,7 +518,7 @@
             <p>Adults: £10 • Children (Under 16): £5 • Family Ticket (2 adults + 2 children): £25 • Curfew: 10PM</p>
           </div>
           <div class="day-actions">
-            <span class="btn" style="opacity:.5; cursor:default;">COMING SOON</span>
+            <a class="btn" href="https://www.skiddle.com/e/42147617" target="_blank" rel="noopener">BUY TICKETS</a>
           </div>
         </div>
 
@@ -511,7 +533,7 @@
   <section id="tickets">
     <div class="wrap">
       <h2>Tickets</h2>
-      <p>Tickets are online-only via See Tickets. Wristbands issued on entry.</p>
+      <p>Tickets are online-only. Wristbands issued on entry.</p>
 
       <div class="tickets-grid" style="margin-top:14px;">
         <div class="card">
@@ -529,120 +551,157 @@
         <div class="card">
           <h3>Sunday — Vortex Football Fun Day</h3>
           <p>Adults £10 • Children £5 • Family (2+2) £25</p>
-          <span class="btn" style="margin-top:12px; opacity:.5; cursor:default;">COMING SOON</span>
+          <a class="btn" href="https://www.skiddle.com/e/42147617" target="_blank" rel="noopener" style="margin-top:12px;">BUY SUNDAY TICKETS</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FAQ -->
+  <!-- FAQ & INFORMATION -->
   <section id="faqs">
     <div class="wrap">
-      <h2>FAQ’s</h2>
+      <div class="faq-layout" style="margin-top:14px;">
 
-      <div class="faq" style="margin-top:14px;">
-        <details>
-          <summary>Can I leave and re-enter the event?</summary>
-          <p><strong>Friday &amp; Saturday:</strong> No re-entry allowed.<br>
-          <strong>Sunday:</strong> Re-entry may be allowed at management discretion.</p>
-          <p>Once you’re in on Friday or Saturday, you’re in for the duration.</p>
-        </details>
+        <!-- FAQ column -->
+        <div>
+          <h2>FAQ’s</h2>
+          <div class="faq" style="margin-top:14px;">
+            <details>
+              <summary>Can I leave and re-enter the event?</summary>
+              <p><strong>Friday &amp; Saturday:</strong> No re-entry allowed.<br>
+              <strong>Sunday:</strong> Re-entry may be allowed at management discretion.</p>
+              <p>Once you’re in on Friday or Saturday, you’re in for the duration.</p>
+            </details>
 
-        <details>
-          <summary>What items can I bring into the event?</summary>
-          <p><strong>You can bring:</strong></p>
-          <ul>
-            <li>Small personal bags</li>
-            <li>Sunscreen, hats, etc.</li>
-          </ul>
-          <p><strong>You cannot bring:</strong></p>
-          <ul>
-            <li>Your own alcohol or drinks</li>
-            <li>Glass containers</li>
-            <li>Weapons or illegal items</li>
-          </ul>
-          <p>All bags may be searched on entry.</p>
-        </details>
+            <details>
+              <summary>What items can I bring into the event?</summary>
+              <p><strong>You can bring:</strong></p>
+              <ul>
+                <li>Small personal bags</li>
+                <li>Sunscreen, hats, etc.</li>
+              </ul>
+              <p><strong>You cannot bring:</strong></p>
+              <ul>
+                <li>Your own alcohol or drinks</li>
+                <li>Glass containers</li>
+                <li>Weapons or illegal items</li>
+              </ul>
+              <p>All bags may be searched on entry.</p>
+            </details>
 
-        <details>
-          <summary>Will there be food and drink available?</summary>
-          <p>Yes—plenty.</p>
-          <ul>
-            <li>Licensed bars operating all weekend</li>
-            <li>Street food traders on site</li>
-          </ul>
-          <p>No need to bring anything—covered.</p>
-        </details>
+            <details>
+              <summary>Will there be food and drink available?</summary>
+              <p>Yes—plenty.</p>
+              <ul>
+                <li>Licensed bars operating all weekend</li>
+                <li>Street food traders on site</li>
+              </ul>
+              <p>No need to bring anything—covered.</p>
+            </details>
 
-        <details>
-          <summary>Is there seating available?</summary>
-          <p>Yes, but limited. The event is mainly standing, however:</p>
-          <ul>
-            <li>Seating is available in designated areas</li>
-            <li>Additional seating is available in bar areas</li>
-          </ul>
-          <p>If you require seating for accessibility reasons, speak to staff on arrival.</p>
-        </details>
+            <details>
+              <summary>Is there seating available?</summary>
+              <p>Yes, but limited. The event is mainly standing, however:</p>
+              <ul>
+                <li>Seating is available in designated areas</li>
+                <li>Additional seating is available in bar areas</li>
+              </ul>
+              <p>If you require seating for accessibility reasons, speak to staff on arrival.</p>
+            </details>
 
-        <details>
-          <summary>Is the event accessible?</summary>
-          <p>Yes:</p>
-          <ul>
-            <li>Step-free access across the site</li>
-            <li>Accessible toilets available</li>
-            <li>Staff on hand to assist where needed</li>
-          </ul>
-          <p>There is no raised viewing platform, so plan accordingly.</p>
-        </details>
+            <details>
+              <summary>Is the event accessible?</summary>
+              <p>Yes:</p>
+              <ul>
+                <li>Step-free access across the site</li>
+                <li>Accessible toilets available</li>
+                <li>Staff on hand to assist where needed</li>
+              </ul>
+              <p>There is no raised viewing platform, so plan accordingly.</p>
+            </details>
 
-        <details>
-          <summary>Will there be security on site?</summary>
-          <p>Yes.</p>
-          <ul>
-            <li>SIA licensed security</li>
-            <li>Bag checks on entry</li>
-            <li>Stewards and crowd management throughout</li>
-          </ul>
-          <p>This is a properly managed event—not a free-for-all.</p>
-        </details>
+            <details>
+              <summary>Will there be security on site?</summary>
+              <p>Yes.</p>
+              <ul>
+                <li>SIA licensed security</li>
+                <li>Bag checks on entry</li>
+                <li>Stewards and crowd management throughout</li>
+              </ul>
+              <p>This is a properly managed event—not a free-for-all.</p>
+            </details>
 
-        <details>
-          <summary>What time does the event finish?</summary>
-          <p>All days have a strict <strong>10:00pm curfew</strong>.</p>
-          <p>Music and amplified sound will stop at this time without exception.</p>
-        </details>
+            <details>
+              <summary>What time does the event finish?</summary>
+              <p>All days have a strict <strong>10:00pm curfew</strong>.</p>
+              <p>Music and amplified sound will stop at this time without exception.</p>
+            </details>
 
-        <details>
-          <summary>Is there medical support on site?</summary>
-          <p>Yes.</p>
-          <ul>
-            <li>Dedicated First Aid / Medical centre</li>
-            <li>Qualified staff present throughout</li>
-            <li>Emergency services access maintained</li>
-          </ul>
-          <p>If anything happens, you’ll be looked after.</p>
-        </details>
+            <details>
+              <summary>Is there medical support on site?</summary>
+              <p>Yes.</p>
+              <ul>
+                <li>Dedicated First Aid / Medical centre</li>
+                <li>Qualified staff present throughout</li>
+                <li>Emergency services access maintained</li>
+              </ul>
+              <p>If anything happens, you’ll be looked after.</p>
+            </details>
 
-        <details>
-          <summary>What happens if I lose my wristband?</summary>
-          <p>Treat it like a ticket—if it’s gone, it’s gone.</p>
-          <p>Lost wristbands will not be replaced without verification.</p>
-        </details>
+            <details>
+              <summary>What happens if I lose my wristband?</summary>
+              <p>Treat it like a ticket—if it’s gone, it’s gone.</p>
+              <p>Lost wristbands will not be replaced without verification.</p>
+            </details>
 
-        <details>
-          <summary>How do I enter the event?</summary>
-          <ul>
-            <li>Single controlled entry point</li>
-            <li>Tickets scanned on arrival</li>
-            <li>Wristband issued</li>
-          </ul>
-          <p>No ticket = no entry. Simple.</p>
-        </details>
+            <details>
+              <summary>How do I enter the event?</summary>
+              <ul>
+                <li>Single controlled entry point</li>
+                <li>Tickets scanned on arrival</li>
+                <li>Wristband issued</li>
+              </ul>
+              <p>No ticket = no entry. Simple.</p>
+            </details>
 
-        <details>
-          <summary>Is the event indoors or outdoors?</summary>
-          <p>It’s an outdoor festival inside Penydarren Park stadium, fully enclosed for safety and control.</p>
-        </details>
+            <details>
+              <summary>Is the event indoors or outdoors?</summary>
+              <p>It’s an outdoor festival inside Penydarren Park stadium, fully enclosed for safety and control.</p>
+            </details>
+          </div>
+        </div>
+
+        <!-- Information column -->
+        <div>
+          <h2>Information</h2>
+          <div style="margin-top:14px; display:grid; gap:14px;">
+
+            <div class="info-card">
+              <div class="info-section">
+                <h3>Venue</h3>
+                <p>Penydarren Park<br>
+                Park Terrace<br>
+                Merthyr Tydfil<br>
+                CF47 8RF</p>
+                <p><a href="https://www.google.com/maps/dir//Penydarren+Park,+Park+Terrace,+Merthyr+Tydfil+CF47+8RF" target="_blank" rel="noopener">Get Directions</a></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-section">
+                <h3>Nearest Car Parks</h3>
+                <p>There is no on-site parking. The following car parks are a short walk from the venue in Merthyr Town Centre:</p>
+                <ul>
+                  <li><strong>Castle Car Park</strong></li>
+                  <li><strong>Pontmorlais Car Park</strong></li>
+                  <li><strong>College Car Park</strong></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
