@@ -695,7 +695,9 @@
                   <li><strong>Castle Car Park</strong></li>
                   <li><strong>Pontmorlais Car Park</strong></li>
                   <li><strong>College Car Park</strong></li>
+                  <li><strong>Abermorlais Car Park</strong></li>
                 </ul>
+                <p><a href="https://maps.merthyr.gov.uk/car-parking-map.htm" target="_blank" rel="noopener">View Car Parking Map</a></p>
               </div>
             </div>
 
