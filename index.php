@@ -464,14 +464,14 @@
       <div class="day-grid">
         <div>
           <span class="pill">SATURDAY 23 MAY</span>
-          <h2>DAYFEVER</h2>
+          <h2>BACK TO THE ZONE</h2>
           <p>
-            Saturday belongs to DAYFEVER — the ultimate daytime disco experience. Expect wall-to-wall floorfillers
-            throught all the decades, hands-in-the-air moments and the kind of crowd that knows every word.
+            Saturday belongs to Back to the Zone — a daytime disco nightclub experience bringing back the legendary Zone nightclub
+            that ruled Merthyr through the 90s and early noughties.
           </p>
           <p>
-            Merthyr's very own Jonny Owen and Sean Jay will droppiong all the bangers. Festival production, DJ sets, licensed bars and street food all
-            day at Penydarren Park, wrapped up before 10PM.
+            DJ Shaun J and Kayleigh J will be dropping the same tracks that packed The Zone out back in the day, plus a load of
+            special guests to be announced. Licensed bars and street food all day at Penydarren Park, wrapped up before 10PM.
           </p>
           <ul class="meta">
             <li>Doors: 3PM</li>
@@ -485,7 +485,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/dayfever.jpeg" alt="Saturday poster — DAYFEVER">
+          <img src="assets/back2thezone.jpeg" alt="Saturday poster — Back to the Zone">
         </div>
       </div>
     </div>
@@ -543,7 +543,7 @@
         </div>
 
         <div class="card">
-          <h3>Saturday — DAYFEVER</h3>
+          <h3>Saturday — Back to the Zone</h3>
           <p>Doors 3PM • Ages 18+</p>
           <a class="btn" href="https://www.seetickets.com/event/dayfever-x-merthyr-town-fc/penydarren-park/3620706" target="_blank" rel="noopener" style="margin-top:12px;">BUY SATURDAY TICKETS</a>
         </div>
