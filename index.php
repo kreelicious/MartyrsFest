@@ -452,7 +452,7 @@
         </div>
 
         <div class="poster js-reveal">
-          <img src="assets/lukecombsexperience-poster.jpeg" alt="Friday poster — The Luke Combs Experience">
+          <img src="assets/lukecombs.png" alt="Friday poster — The Luke Combs Experience">
         </div>
       </div>
     </div>
@@ -480,7 +480,7 @@
             <li>Licensed bars and street food available throughout the day</li>
           </ul>
           <div class="day-actions">
-            <a class="btn" href="https://www.seetickets.com/event/dayfever-x-merthyr-town-fc/penydarren-park/3620706" target="_blank" rel="noopener">BUY TICKETS</a>
+            <a class="btn" href="https://www.seetickets.com/event/back-to-the-zone/penydarren-park/3620706" target="_blank" rel="noopener">BUY TICKETS</a>
           </div>
         </div>
 
@@ -545,7 +545,7 @@
         <div class="card">
           <h3>Saturday — Back to the Zone</h3>
           <p>Doors 3PM • Ages 18+</p>
-          <a class="btn" href="https://www.seetickets.com/event/dayfever-x-merthyr-town-fc/penydarren-park/3620706" target="_blank" rel="noopener" style="margin-top:12px;">BUY SATURDAY TICKETS</a>
+          <a class="btn" href="https://www.seetickets.com/event/back-to-the-zone/penydarren-park/3620706" target="_blank" rel="noopener" style="margin-top:12px;">BUY SATURDAY TICKETS</a>
         </div>
 
         <div class="card">
